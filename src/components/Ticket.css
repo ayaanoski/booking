@@ -1,76 +1,90 @@
 .ticket-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-  }
-  
-  .ticket-outline {
-    display: flex;
-    justify-content: space-between;
-    border: 4px dashed #ff9800;
-    background-color: #fff;
-    width: 600px;
-    border-radius: 12px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-  }
-  
-  /* Left Section */
-  .ticket-left {
-    background-color: #ff9800;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-  }
-  
-  .ticket-logo {
-    width: 80px;
-    height: 80px;
-  }
-  
-  /* Center Section */
-  .ticket-center {
-    flex: 2;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .ticket-title {
-    font-size: 1.8rem;
-    color: #333;
-    margin-bottom: 10px;
-    font-weight: bold;
-  }
-  
-  .ticket-detail {
-    font-size: 1.1rem;
-    color: #555;
-    margin: 8px 0;
-  }
-  
-  .ticket-thank {
-    font-size: 1rem;
-    color: #ff9800;
-    font-weight: bold;
-    margin-top: 20px;
-  }
-  
-  /* Right Section */
-  .ticket-right {
-    background-color: #ff9800;
-    color: #fff;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 10px;
-  }
-  
-  .ticket-brand {
-    font-size: 0.9rem;
-    margin: 4px 0;
-    font-weight: bold;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.ticket-outline {
+  display: flex;
+  justify-content: space-between;
+  border: 4px dashed #ff9800;
+  background-color: #fff;
+  width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.ticket-left {
+  background-color: #ff9800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.ticket-logo {
+  width: 80px;
+  height: 80px;
+}
+
+.ticket-center {
+  flex: 2;
+  padding: 20px;
+  text-align: center;
+}
+
+.ticket-title {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.ticket-detail {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 8px 0;
+}
+
+.ticket-thank {
+  font-size: 1rem;
+  color: #ff9800;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.ticket-right {
+  background-color: #ff9800;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.ticket-brand {
+  font-size: 0.9rem;
+  margin: 4px 0;
+  font-weight: bold;
+}
+
+.download-button {
+  margin-top: 20px;
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.download-button:hover {
+  background-color: #e68900;
+}
