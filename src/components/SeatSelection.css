@@ -1,0 +1,53 @@
+.seat-selection-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .seats-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+  }
+  
+  .seat {
+    width: 50px;
+    height: 50px;
+    background-color: #ddd;
+    border: 2px solid #bbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .seat.selected {
+    background-color: #4caf50;
+    color: white;
+    border: 2px solid #388e3c;
+  }
+  
+  .seat.occupied {
+    background-color: #e53935;
+    color: white;
+    cursor: not-allowed;
+  }
+  
+  .confirm-seat-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #ff9800;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .confirm-seat-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
