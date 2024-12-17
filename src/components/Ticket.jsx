@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import './Ticket.css';
-import marathonLogo from '../assets/logo.png'; // Replace with your marathon logo path
+import marathonLogo from '../assets/marathon.jpg'; // Replace with your marathon logo path
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
 
